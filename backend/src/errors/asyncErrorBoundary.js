@@ -1,3 +1,4 @@
+// ensures any errors for async routes are caught during execution
 function asyncErrorBoundary(delegate, defaultStatus) {
   return (request, response, next) => {
     Promise.resolve()
