@@ -16,7 +16,6 @@ async function ifExists(req, res, next) {
   }
 }
 
-// route handler for GET requests for movies, 200 response for successful requests
 function read(req, res) {
   res.status(200).json({ data: res.locals.movie });
 }

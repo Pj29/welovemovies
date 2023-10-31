@@ -2,7 +2,6 @@ const asyncErrorBoundary = require("../errors/asyncErrorBoundary");
 const theatersService = require("./theaters.service");
 const reduceProperties = require("../utils/reduce-properties");
 
-// handles GET requests for a list of theaters
 async function list(req, res, next) {
   const { movieId } = req.params; // extract movieId from URL parameter
 
