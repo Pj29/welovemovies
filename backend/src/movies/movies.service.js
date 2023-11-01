@@ -1,7 +1,6 @@
 const knex = require("../db/connection");
 const mapProperties = require("../utils/map-properties");
 
-// use mapProperties utlity function to map out the key-value pairs when adding a critic
 const addCritic = mapProperties({
   critic_id: "critic.critic_id",
   preferred_name: "critic.preferred_name",
