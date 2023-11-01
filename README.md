@@ -1,6 +1,6 @@
 # welovemovies
 
-**[WeLoveMovies](https://welovemovies-client-wa6n.onrender.com/)**
+**[WeLoveMovies Frontend](https://welovemovies-client-wa6n.onrender.com/)**
 
 **[WeLoveMovies API](https://welovemovies-ymhh.onrender.com)**
 
